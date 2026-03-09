@@ -4,6 +4,8 @@ on:
     branches: [ main ]
     tags: 
       - 'v*'
+    paths-ignore:
+      - 'docs/**'
 
 jobs:
   deploy:
@@ -17,7 +19,7 @@ jobs:
           dotnet-version: 8.0.x
 
       - name: Install Workloads
-        run: dotnet workload restore
+        run: dotnet workload restore src/dndspellviewercrossplatform.Browser/dndspellviewercrossplatform.Browser.csproj
      
       - name: Minify Spell Data
         run: |
