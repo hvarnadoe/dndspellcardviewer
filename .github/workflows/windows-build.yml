@@ -1,0 +1,27 @@
+name: Build Windows Desktop
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+          
+      - name: Publish Windows
+        run: dotnet publish src/dndspellviewercrossplatform.Desktop/dndspellviewercrossplatform.Desktop.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -o ./publish
+
+      - name: Rename Binary
+        shell: pwsh
+        run: Rename-Item ./publish/dndspellviewercrossplatform.Desktop.exe SpellViewer.exe
+
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ./publish/SpellViewer.exe
