@@ -2,8 +2,8 @@ name: Publish Web App
 on:
   push:
     branches: [ main ]
-    paths-ignore:
-      - 'docs/**'
+    tags: 
+      - 'v*'
 
 jobs:
   deploy:
@@ -16,8 +16,8 @@ jobs:
         with:
           dotnet-version: 8.0.x
 
-      - name: Install WASM Workload
-        run: dotnet workload install wasm-tools
+      - name: Install Workloads
+        run: dotnet workload restore
      
       - name: Minify Spell Data
         run: |
