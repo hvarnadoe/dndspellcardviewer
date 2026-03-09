@@ -18,18 +18,20 @@ jobs:
 
       - name: Install WASM Workload
         run: dotnet workload install wasm-tools
-
-      - name: Publish Web
-        run: dotnet publish dndspellviewercrossplatform.Browser/dndspellviewercrossplatform.Browser.csproj -c Release -o ./web-build
+     
       - name: Minify Spell Data
         run: |
-          if [ -f "dndspellviewercrossplatform.Browser/wwwroot/spells.json" ]; then
-            jq -c . dndspellviewercrossplatform.Browser/wwwroot/spells.json > minified.json
-            mv minified.json dndspellviewercrossplatform.Browser/wwwroot/spells.json
+          if [ -f "src/dndspellviewercrossplatform/assets/spells.json" ]; then
+            jq -c . src/dndspellviewercrossplatform/assets/spells.json > minified.json
+            mv minified.json src/dndspellviewercrossplatform/assets/spells.json
             echo "Spells.json minified successfully."
           else
             echo "spells.json not found, skipping minification."
           fi
+
+      - name: Publish Web
+        run: dotnet publish src/dndspellviewercrossplatform.Browser/dndspellviewercrossplatform.Browser.csproj -c Release -o ./web-build
+        
       - name: Prepare Docs Folder
         run: |
           mkdir -p docs
