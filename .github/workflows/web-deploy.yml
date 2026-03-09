@@ -1,0 +1,46 @@
+name: Publish Web App
+on:
+  push:
+    branches: [ main ]
+    paths-ignore:
+      - 'docs/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Install WASM Workload
+        run: dotnet workload install wasm-tools
+
+      - name: Publish Web
+        run: dotnet publish dndspellviewercrossplatform.Browser/dndspellviewercrossplatform.Browser.csproj -c Release -o ./web-build
+      - name: Minify Spell Data
+        run: |
+          if [ -f "dndspellviewercrossplatform.Browser/wwwroot/spells.json" ]; then
+            jq -c . dndspellviewercrossplatform.Browser/wwwroot/spells.json > minified.json
+            mv minified.json dndspellviewercrossplatform.Browser/wwwroot/spells.json
+            echo "Spells.json minified successfully."
+          else
+            echo "spells.json not found, skipping minification."
+          fi
+      - name: Prepare Docs Folder
+        run: |
+          mkdir -p docs
+          rm -rf docs/*
+          cp -r ./web-build/wwwroot/* docs/
+          touch docs/.nojekyll
+
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add docs/
+          git commit -m "Update web app in docs folder with .nojekyll" || echo "No changes to commit"
+          git push
