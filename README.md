@@ -38,4 +38,3 @@ To build this project locally, ensure you have the **.NET 8 SDK** installed.
 ### 1. Clone the Repository
 ```bash
 git clone [https://github.com/hvarnadoe/dndspellcardviewer.git](https://github.com/hvarnadoe/dndspellcardviewer.git)
-cd dndspellcardviewer
