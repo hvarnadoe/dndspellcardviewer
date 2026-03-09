@@ -1,0 +1,43 @@
+name: Build macOS Desktop
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: macos-latest
+    strategy:
+      matrix:
+        include:
+          - arch: osx-x64
+            display_name: Intel
+          - arch: osx-arm64
+            display_name: AppleSilicon
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+          
+      - name: Publish macOS
+        run: |
+          dotnet publish src/dndspellviewercrossplatform.Desktop/dndspellviewercrossplatform.Desktop.csproj \
+            -c Release \
+            -r ${{ matrix.arch }} \
+            --self-contained true \
+            -p:PublishSingleFile=true \
+            -o ./publish
+
+      - name: Rename and Package
+        run: |
+          mv ./publish/dndspellviewercrossplatform.Desktop ./publish/SpellViewer_${{ matrix.display_name }}
+          chmod +x ./publish/SpellViewer_${{ matrix.display_name }}
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ./publish/SpellViewer_${{ matrix.display_name }}
+          generate_release_notes: true
