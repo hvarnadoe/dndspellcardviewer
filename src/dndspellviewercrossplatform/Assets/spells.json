@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "name": "Acid Spalsh",
     "level": 0,
@@ -301,7 +301,7 @@
     ]
   },
   {
-    "name": "Armor Of Agathys",
+    "name": "Armor of Agathys",
     "level": 1,
     "type": "Abjuration",
     "casting_time": "Bonus Action",
@@ -319,7 +319,7 @@
     ]
   },
   {
-    "name": "Arms Of Hadar",
+    "name": "Arms of Hadar",
     "level": 1,
     "type": "Conjuration",
     "casting_time": "Action",
@@ -376,7 +376,7 @@
     ]
   },
   {
-    "name": "Aura Of Life",
+    "name": "Aura of Life",
     "level": 4,
     "type": "Abjuration",
     "casting_time": "Action",
@@ -393,7 +393,7 @@
     ]
   },
   {
-    "name": "Aura Of Purity",
+    "name": "Aura of Purity",
     "level": 4,
     "type": "Abjuration",
     "casting_time": "Action",
@@ -410,7 +410,7 @@
     ]
   },
   {
-    "name": "Aura Of Vitality",
+    "name": "Aura of Vitality",
     "level": 3,
     "type": "Abjuration",
     "casting_time": "Action",
@@ -524,7 +524,7 @@
     ]
   },
   {
-    "name": "Beacon Of Hope",
+    "name": "Beacon of Hope",
     "level": 3,
     "type": "Abjuration",
     "casting_time": "Action",
@@ -915,7 +915,7 @@
     ]
   },
   {
-    "name": "Circle Of Death",
+    "name": "Circle of Death",
     "level": 6,
     "type": "Necromancy",
     "casting_time": "Action",
@@ -935,7 +935,7 @@
     ]
   },
   {
-    "name": "Circle Of Power",
+    "name": "Circle of Power",
     "level": 5,
     "type": "Abjuration",
     "casting_time": "Action",
@@ -1010,7 +1010,7 @@
     ]
   },
   {
-    "name": "Cloud Of Daggers",
+    "name": "Cloud of Daggers",
     "level": 2,
     "type": "Conjuration",
     "casting_time": "Action",
@@ -1159,7 +1159,7 @@
     ]
   },
   {
-    "name": "Cone Of Cold",
+    "name": "Cone of Cold",
     "level": 5,
     "type": "Evocation",
     "casting_time": "Action",
@@ -1455,7 +1455,7 @@
     ]
   },
   {
-    "name": "Cordon Of Arrows",
+    "name": "Cordon of Arrows",
     "level": 2,
     "type": "Transmutation",
     "casting_time": "Action",
@@ -1509,7 +1509,7 @@
     ]
   },
   {
-    "name": "Create Or Destroy Water",
+    "name": "Create or Destroy Water",
     "level": 1,
     "type": "Transmutation",
     "casting_time": "Action",
@@ -1540,7 +1540,7 @@
     ],
     "duration": "Instantaneous",
     "concentration": false,
-    "description": "You can cast this spell only at night. Choose up to three corpses of Medium or Small Humanoids within range. Each one becomes a Ghoul under your control (see the Monster Manual for its stat block). As a Bonus Action on each of your turns, you can mentally command any creature you animated with this spell if the creature is within 120 feet of you (if you control multiple creatures, you can command any of them at the same time, issuing the same command to them). You decide what action the creature will take and where it will move on its next turn, or you can issue a general command, such as to guard a particular place. If you issue no commands, the creature takes the Dodge action and moves only to avoid harm. Once given an order, the creature continues to follow the order until its task is complete. The creature is under your control for 24 hours, after which it stops obeying any command you've given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature before the current 24-hour period ends. This use of the spell reasserts your control over up to three creatures you have animated with this spell rather than animating new ones. Using a Higher-Level Spell Slot. If you use a level 7 spell slot, you can animate or reassert control over four Ghouls. If you use a level 8 spell slot, you can animate or reassert control over five Ghouls or two Ghasts or Wights. If you use a level 9 spell slot, you can animate or reassert control over six Ghouls, three Ghasts or Wights, or two Mummies. See the Monster Manual for these stat blocks.",
+    "description": "You can cast this spell only at night. Choose up to three corpses of Medium or Small Humanoids within range. Each one becomes a Ghoul under your control. As a Bonus Action on each of your turns, you can mentally command any creature you animated with this spell if the creature is within 120 feet of you (if you control multiple creatures, you can command any of them at the same time, issuing the same command to them). You decide what action the creature will take and where it will move on its next turn, or you can issue a general command, such as to guard a particular place. If you issue no commands, the creature takes the Dodge action and moves only to avoid harm. Once given an order, the creature continues to follow the order until its task is complete. The creature is under your control for 24 hours, after which it stops obeying any command you've given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature before the current 24-hour period ends. This use of the spell reasserts your control over up to three creatures you have animated with this spell rather than animating new ones. Using a Higher-Level Spell Slot. If you use a level 7 spell slot, you can animate or reassert control over four Ghouls. If you use a level 8 spell slot, you can animate or reassert control over five Ghouls or two Ghasts or Wights. If you use a level 9 spell slot, you can animate or reassert control over six Ghouls, three Ghasts or Wights, or two Mummies.",
     "class": [
       "Cleric",
       "Warlock",
@@ -1567,7 +1567,7 @@
     ]
   },
   {
-    "name": "Crown Of Madness",
+    "name": "Crown of Madness",
     "level": 2,
     "type": "Enchantment",
     "casting_time": "Action",
@@ -2594,7 +2594,7 @@
     ]
   },
   {
-    "name": "Finger Of Death",
+    "name": "Finger of Death",
     "level": 7,
     "type": "Necromancy",
     "casting_time": "Action",
@@ -2857,7 +2857,7 @@
     ]
   },
   {
-    "name": "Fount Of Moonlight",
+    "name": "Fount of Moonlight",
     "level": 4,
     "type": "Evocation",
     "casting_time": "Action",
@@ -2875,7 +2875,7 @@
     ]
   },
   {
-    "name": "Freedom Of Movement",
+    "name": "Freedom of Movement",
     "level": 4,
     "type": "Abjuration",
     "casting_time": "Action",
@@ -3027,7 +3027,7 @@
     ]
   },
   {
-    "name": "Globe Of Invulnerability",
+    "name": "Globe of Invulnerability",
     "level": 6,
     "type": "Abjuration",
     "casting_time": "Action",
@@ -3046,7 +3046,7 @@
     ]
   },
   {
-    "name": "Glyph Of Warding",
+    "name": "Glyph of Warding",
     "level": 3,
     "type": "Abjuration",
     "casting_time": "1 hour",
@@ -3159,7 +3159,7 @@
     ]
   },
   {
-    "name": "Guardian Of Faith",
+    "name": "Guardian of Faith",
     "level": 4,
     "type": "Conjuration",
     "casting_time": "Action",
@@ -3226,7 +3226,7 @@
     ]
   },
   {
-    "name": "Gust Of Wind",
+    "name": "Gust of Wind",
     "level": 2,
     "type": "Evocation",
     "casting_time": "Action",
@@ -3247,7 +3247,7 @@
     ]
   },
   {
-    "name": "Hail Of Thorns",
+    "name": "Hail of Thorns",
     "level": 1,
     "type": "Conjuration",
     "casting_time": "Bonus Action",
@@ -3520,7 +3520,7 @@
     ]
   },
   {
-    "name": "Hunger Of Hadar",
+    "name": "Hunger of Hadar",
     "level": 3,
     "type": "Conjuration",
     "casting_time": "Action",
@@ -3658,7 +3658,7 @@
       "m (a statuette of the target worth 5,000+ GP)"
     ],
     "duration": "Until dispelled",
-    "description": "You create a magical restraint to hold a creature that you can see within range. The target must make a Wisdom saving throw. On a successful save, the target is unaffected, and it is immune to this spell for the next 24 hours. On a failed save, the target is imprisoned. While imprisoned, the target doesn't need to breathe, eat, or drink, and it doesn't age. Divination spells can't locate or perceive the imprisoned target, and the target can't teleport. Until the spell ends, the target is also affected by one of the following effects of your choice: Burial (The target is entombed beneath the earth in a hollow globe of magical force that is just large enough to contain the target. Nothing can pass into or out of the globe.), Chaining (Chains firmly rooted in the ground hold the target in place. The target has the Restrained condition and can't be moved by any means.), Hedged Prison (The target is trapped in a demiplane that is warded against teleportation and planar travel. The demiplane is your choice of a labyrinth, a cage, a tower, or the like.), Minimus Containment (The target becomes 1 inch tall and is trapped inside an indestructible gemstone or a similar object. Light can pass through the gemstone (allowing the target to see out and other creatures to see in), but nothing else can pass through by any means.), Slumber (The target has the Unconscious condition and can't be awoken.). Ending the Spell: When you cast the spell, specify a trigger that will end it. The trigger can be as simple or as elaborate as you choose, but the DM must agree that it has a high likelihood of happening within the next decade. The trigger must be an observable action, such as someone making a particular offering at the temple of your god, saving your true love, or defeating a specific monster. A Dispel Magic spell can end the spell only if it is cast with a level 9 spell slot, targeting either the prison or the component used to create it.",
+    "description": "You create a magical restraint to hold a creature that you can see within range. The target must make a Wisdom saving throw. On a successful save, the target is unaffected, and it is immune to this spell for the next 24 hours. On a failed save, the target is imprisoned. While imprisoned, the target doesn't need to breathe, eat, or drink, and it doesn't age. Divination spells can't locate or perceive the imprisoned target, and the target can't teleport. Until the spell ends, the target is also affected by one of the following effects of your choice: Burial (The target is entombed beneath the earth in a hollow globe of magical force that is just large enough to contain the target. Nothing can pass into or out of the globe.), Chaining (Chains firmly rooted in the ground hold the target in place. The target has the Restrained condition and can't be moved by any means.), Hedged Prison (The target is trapped in a demiplane that is warded against teleportation and planar travel. The demiplane is your choice of a labyrinth, a cage, a tower, or the like.), Minimus Containment (The target becomes 1 inch tall and is trapped inside an indestructible gemstone or a similar object. Light can pass through the gemstone (allowing the target to see out and other creatures to see in), but nothing else can pass through by any means.), Slumber (The target has the Unconscious condition and can't be awoken.). Ending the Spell: When you cast the spell, specify a trigger that will end it.",
     "class": [
       "Warlock",
       "Wizard"
@@ -3741,7 +3741,7 @@
     ]
   },
   {
-    "name": "Jallarzi S Storm Of Radiance",
+    "name": "Jallarzi S Storm of Radiance",
     "level": 5,
     "type": "Evocation",
     "casting_time": "Action",
@@ -3943,7 +3943,7 @@
     ]
   },
   {
-    "name": "Locate Animals Or Plants",
+    "name": "Locate Animals or Plants",
     "level": 2,
     "type": "Divination",
     "casting_time": "Action or Ritual",
@@ -4237,7 +4237,7 @@
       "m (a snake's tongue)"
     ],
     "duration": "24 hours",
-    "description": "You suggest a course of activity\u2014described in no more than 25 words\u2014to twelve or fewer creatures you can see within range that can hear and understand you. The suggestion must sound achievable and not involve anything that would obviously deal damage to any of the targets or their allies. For example, you could say, 'Walk to the village down that road, and help the villagers there harvest crops until sunset.' Or you could say, 'Now is not the time for violence. Drop your weapons, and dance! Stop in an hour.' Each target must succeed on a Wisdom saving throw or have the Charmed condition for the duration or until you or your allies deal damage to the target. Each Charmed target pursues the suggestion to the best of its ability. The suggested activity can continue for the entire duration, but if the suggested activity can be completed in a shorter time, the spell ends for a target upon completing it. Using a higher-level spell slot, the duration is longer with a spell slot of level 7 (10 days), 8 (30 days), or 9 (366 days).",
+    "description": "You suggest a course of activity\u2014described in no more than 25 words\u2014to twelve or fewer creatures you can see within range that can hear and understand you. The suggestion must sound achievable and not involve anything that would obviously deal damage to any of the targets or their allies. For example, you could say, 'Walk to the village down that road, and help the villagers there harvest crops until sunset.' or you could say, 'Now is not the time for violence. Drop your weapons, and dance! Stop in an hour.' Each target must succeed on a Wisdom saving throw or have the Charmed condition for the duration or until you or your allies deal damage to the target. Each Charmed target pursues the suggestion to the best of its ability. The suggested activity can continue for the entire duration, but if the suggested activity can be completed in a shorter time, the spell ends for a target upon completing it. Using a higher-level spell slot, the duration is longer with a spell slot of level 7 (10 days), 8 (30 days), or 9 (366 days).",
     "class": [
       "Bard",
       "Sorcerer",
@@ -4533,7 +4533,7 @@
     ]
   },
   {
-    "name": "Mordenkainen S Faithful Hound",
+    "name": "Mordenkainen's Faithful Hound",
     "level": 4,
     "type": "Conjuration",
     "casting_time": "Action",
@@ -4550,7 +4550,7 @@
     ]
   },
   {
-    "name": "Mordenkainen S Magnificent Mansion",
+    "name": "Mordenkainen's Magnificent Mansion",
     "level": 7,
     "type": "Conjuration",
     "casting_time": "1 minute",
@@ -4568,7 +4568,7 @@
     ]
   },
   {
-    "name": "Mordenkainen S Private Sanctum",
+    "name": "Mordenkainen's Private Sanctum",
     "level": 4,
     "type": "Abjuration",
     "casting_time": "10 minutes",
@@ -4585,7 +4585,7 @@
     ]
   },
   {
-    "name": "Mordenkainen S Sword",
+    "name": "Mordenkainen's Sword",
     "level": 7,
     "type": "Evocation",
     "casting_time": "Action",
@@ -4632,7 +4632,7 @@
     "components": [
       "v",
       "s",
-      "m (a pinch of diamond dust worth 25+ GP, which the spell consumes)"
+      "m (a pinch of diamond dust worth 25+ GP)"
     ],
     "duration": "8 hours",
     "description": "For the duration, you hide a target that you touch from Divination spells. The target can be a willing creature, or it can be a place or an object no larger than 10 feet in any dimension. The target can't be targeted by any Divination spell or perceived through magical scrying sensors.",
@@ -4827,7 +4827,7 @@
     "components": [
       "v",
       "s",
-      "m (a jewel worth 1,000+ GP, which the spell consumes)"
+      "m (a jewel worth 1,000+ GP)"
     ],
     "duration": "24 hours",
     "description": "You attempt to bind a Celestial, an Elemental, a Fey, or a Fiend to your service. The creature must be within range for the entire casting of the spell. (Typically, the creature is first summoned into the center of the inverted version of the Magic Circle spell to trap it while this spell is cast.) At the completion of the casting, the target must succeed on a Charisma saving throw or be bound to serve you for the duration. If the creature was summoned or created by another spell, that spell's duration is extended to match the duration of this spell. A bound creature must follow your commands to the best of its ability. You might command the creature to accompany you on an adventure to guard a location, or to deliver a message. If the creature is Hostile, it strives to twist your commands to achieve its own objectives. If the creature carries out your commands completely before the spell ends, it travels to you to report this fact if you are on the same plane of existence. If you are on a different plane, it returns to the place where you bound it and remains there until the spell ends. Using a higher-level spell slot, the duration increases with a spell slot of level 6 (10 days), 7 (30 days), 8 (180 days), and 9 (366 days).",
@@ -4987,7 +4987,7 @@
     ]
   },
   {
-    "name": "Prayer Of Healing",
+    "name": "Prayer of Healing",
     "level": 2,
     "type": "Abjuration",
     "casting_time": "10 minutes",
@@ -5139,7 +5139,7 @@
     "components": [
       "v",
       "s",
-      "m (a flask of Holy Water worth 25+ GP, which the spell consumes)"
+      "m (a flask of Holy Water worth 25+ GP)"
     ],
     "duration": "10 minutes",
     "concentration": true,
@@ -5198,7 +5198,7 @@
     "components": [
       "v",
       "s",
-      "m (a diamond worth 500+ GP, which the spell consumes)"
+      "m (a diamond worth 500+ GP)"
     ],
     "duration": "Instantaneous",
     "description": "With a touch, you revive a dead creature if it has been dead no longer than 10 days and it wasn't Undead when it died. The creature returns to life with 1 Hit Point. This spell also neutralizes any poisons that affected the creature at the time of death. This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival\u2014its head, for instance\u2014the spell automatically fails. Coming back from the dead is an ordeal. The target takes a -4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.",
@@ -5227,7 +5227,7 @@
     ]
   },
   {
-    "name": "Ray Of Enfeeblement",
+    "name": "Ray of Enfeeblement",
     "level": 2,
     "type": "Necromancy",
     "casting_time": "Action",
@@ -5245,7 +5245,7 @@
     ]
   },
   {
-    "name": "Ray Of Frost",
+    "name": "Ray of Frost",
     "level": 0,
     "type": "Evocation",
     "casting_time": "Action",
@@ -5262,7 +5262,7 @@
     ]
   },
   {
-    "name": "Ray Of Sickness",
+    "name": "Ray of Sickness",
     "level": 1,
     "type": "Necromancy",
     "casting_time": "Action",
@@ -5306,7 +5306,7 @@
     "components": [
       "v",
       "s",
-      "m (rare oils worth 1,000+ GP, which the spell consumes)"
+      "m (rare oils worth 1,000+ GP)"
     ],
     "duration": "Instantaneous",
     "description": "You touch a dead Humanoid or a piece of one. If the creature has been dead no longer than 10 days, the spell forms a new body for it and calls the soul to enter that body. Roll 1d10 and consult the table below to determine the body's species, or the DM chooses another playable species. The reincarnated creature makes any choices that a species' description offers, and the creature recalls its former life. It retains the capabilities it had in its original form, except it loses the traits of its previous species and gains the traits of its new one.",
@@ -5360,7 +5360,7 @@
     "components": [
       "v",
       "s",
-      "m (a diamond worth 1,000+ GP, which the spell consumes)"
+      "m (a diamond worth 1,000+ GP)"
     ],
     "duration": "Instantaneous",
     "description": "With a touch, you revive a dead creature that has been dead for no more than a century, didn't die of old age, and wasn't Undead when it died. The creature returns to life with all its Hit Points. This spell also neutralizes any poisons that affected the creature at the time of death. This spell closes all mortal wounds and restores any missing body parts. Coming back from the dead is an ordeal. The target takes a -4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0. Casting this spell to revive a creature that has been dead for 365 days or longer taxes you. Until you finish a Long Rest, you can't cast spells again, and you have Disadvantage on D20 Tests.",
@@ -5398,7 +5398,7 @@
     "components": [
       "v",
       "s",
-      "m (a diamond worth 300+ GP, which the spell consumes)"
+      "m (a diamond worth 300+ GP)"
     ],
     "duration": "Instantaneous",
     "description": "You touch a creature that has died within the last minute. That creature revives with 1 Hit Point. This spell can't revive a creature that has died of old age, nor does it restore any missing body parts.",
@@ -5578,7 +5578,7 @@
     "components": [
       "v",
       "s",
-      "m (gem dust worth 5,000+ GP, which the spell consumes)"
+      "m (gem dust worth 5,000+ GP)"
     ],
     "duration": "Until dispelled",
     "description": "With a touch, you magically sequester an object or a willing creature. For the duration, the target has the Invisible condition and can't be targeted by Divination spells, detected by magic, or viewed remotely with magic. If the target is a creature, it enters a state of suspended animation; it has the Unconscious condition, doesn't age, and doesn't need food, water, or air. You can set a condition for the spell to end early. The condition can be anything you choose, but it must occur or be visible within 1 mile of the target. Examples include 'after 1,000 years' or 'when the tarrasque awakens.' This spell also ends if the target takes any damage.",
@@ -5642,7 +5642,7 @@
     ]
   },
   {
-    "name": "Shield Of Faith",
+    "name": "Shield of Faith",
     "level": 1,
     "type": "Abjuration",
     "casting_time": "Bonus Action",
@@ -5758,7 +5758,7 @@
     "components": [
       "v",
       "s",
-      "m (powdered ruby worth 1,500+ GP, which the spell consumes)"
+      "m (powdered ruby worth 1,500+ GP)"
     ],
     "duration": "Until dispelled",
     "description": "You create a simulacrum of one Beast or Humanoid that is within 10 feet of you for the entire casting of the spell. You finish the casting by touching both the creature and a pile of ice or snow that is the same size as that creature, and the pile turns into the simulacrum, which is a creature. It uses the game statistics of the original creature at the time of casting, except it is a Construct, its Hit Point maximum is half as much, and it can't cast this spell. The simulacrum is Friendly to you and creatures you designate. It obeys your commands and acts on your turn in combat. The simulacrum can't gain levels, and it can't take Short or Long Rests. If the simulacrum takes damage, the only way to restore its Hit Points is to repair it as you take a Long Rest, during which you expend components worth 100 GP per Hit Point restored. The simulacrum must stay within 5 feet of you for the repair. The simulacrum lasts until it drops to 0 Hit Points, at which point it reverts to snow and melts away. If you cast this spell again, any simulacrum you created with this spell is instantly destroyed.",
@@ -5908,7 +5908,7 @@
       "s"
     ],
     "duration": "10 minutes",
-    "description": "You imbue plants in an immobile 30-foot Emanation with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands. You can question plants about events in the spell's area within the past day, gaining information about creatures that have passed, weather, and other circumstances. You can also turn Difficult Terrain caused by plant growth (such as thickets and undergrowth) into ordinary terrain that lasts for the duration. Or you can turn ordinary terrain where plants are present into Difficult Terrain that lasts for the duration. The spell doesn't enable plants to uproot themselves and move about, but they can move their branches, tendrils, and stalks for you. If a Plant creature is in the area, you can communicate with it as if you shared a common language.",
+    "description": "You imbue plants in an immobile 30-foot Emanation with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands. You can question plants about events in the spell's area within the past day, gaining information about creatures that have passed, weather, and other circumstances. You can also turn Difficult Terrain caused by plant growth (such as thickets and undergrowth) into ordinary terrain that lasts for the duration. or you can turn ordinary terrain where plants are present into Difficult Terrain that lasts for the duration. The spell doesn't enable plants to uproot themselves and move about, but they can move their branches, tendrils, and stalks for you. If a Plant creature is in the area, you can communicate with it as if you shared a common language.",
     "class": [
       "Bard",
       "Druid",
@@ -6086,7 +6086,7 @@
     "components": [
       "v",
       "s",
-      "m (diamond dust worth 100+ GP, which the spell consumes)"
+      "m (diamond dust worth 100+ GP)"
     ],
     "duration": "1 hour",
     "concentration": true,
@@ -6099,7 +6099,7 @@
     ]
   },
   {
-    "name": "Storm Of Vengeance",
+    "name": "Storm of Vengeance",
     "level": 9,
     "type": "Conjuration",
     "casting_time": "Action",
@@ -6127,7 +6127,7 @@
     ],
     "duration": "8 hours",
     "concentration": true,
-    "description": "You suggest a course of activity\u2014described in no more than 25 words\u2014to one creature you can see within range that can hear and understand you. The suggestion must sound achievable and not involve anything that would obviously deal damage to the target or its allies. For example, you could say, 'Fetch the key to the cult's treasure vault, and give the key to me.' Or you could say, 'Stop fighting, leave this library peacefully, and don't return.' The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration or until you or your allies deal damage to the target. The Charmed target pursues the suggestion to the best of its ability. The suggested activity can continue for the entire duration, but if the suggested activity can be completed in a shorter time, the spell ends for the target upon completing it.",
+    "description": "You suggest a course of activity\u2014described in no more than 25 words\u2014to one creature you can see within range that can hear and understand you. The suggestion must sound achievable and not involve anything that would obviously deal damage to the target or its allies. For example, you could say, 'Fetch the key to the cult's treasure vault, and give the key to me.' or you could say, 'Stop fighting, leave this library peacefully, and don't return.' The target must succeed on a Wisdom saving throw or have the Charmed condition for the duration or until you or your allies deal damage to the target. The Charmed target pursues the suggestion to the best of its ability. The suggested activity can continue for the entire duration, but if the suggested activity can be completed in a shorter time, the spell ends for the target upon completing it.",
     "class": [
       "Bard",
       "Sorcerer",
@@ -6375,7 +6375,7 @@
     "components": [
       "v",
       "s",
-      "m (powdered diamond worth 1,000+ GP, which the spell consumes)"
+      "m (powdered diamond worth 1,000+ GP)"
     ],
     "duration": "Until dispelled or triggered",
     "description": "You inscribe a harmful glyph either on a surface (such as a section of floor or wall) or within an object that can be closed (such as a book or chest). The glyph can cover an area no larger than 10 feet in diameter. If you choose an object, it must remain in place; if it is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered. The glyph is nearly imperceptible and requires a successful Wisdom (Perception) check against your spell save DC to notice. When you inscribe the glyph, you set its trigger and choose which effect the symbol bears: Death, Discord, Fear, Pain, Sleep, or Stunning. Each one is explained below. Set the Trigger: You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, common triggers include touching or stepping on the glyph, removing another object covering it, or approaching within a certain distance of it. For glyphs inscribed within an object, common triggers include opening that object or seeing the glyph. You can refine the trigger so that only creatures of certain types activate it (for example, the glyph could be set to affect Aberrations). You can also set conditions for creatures that don't trigger the glyph, such as those who say a certain password. Once triggered, the glyph glows, filling a 60-foot-radius Sphere with Dim Light for 10 minutes, after which time the spell ends. Each creature in the Sphere when the glyph activates is targeted by its effect, as is a creature that enters the Sphere for the first time on a turn or ends its turn there. A creature is targeted only once per turn. Death: Each target makes a Constitution saving throw, taking 10d10 Necrotic damage on a failed save or half as much damage on a successful save. Discord: Each target makes a Wisdom saving throw. On a failed save, a target argues with other creatures for 1 minute. During this time, it is incapable of meaningful communication and has Disadvantage on attack rolls and ability checks. Fear: Each target must succeed on a Wisdom saving throw or have the Frightened condition for 1 minute. While Frightened, the target must move at least 30 feet away from the glyph on each of its turns, if able. Pain: Each target must succeed on a Constitution saving throw or have the Incapacitated condition for 1 minute. Sleep: Each target must succeed on a Wisdom saving throw or have the Unconscious condition for 10 minutes. A creature awakens if it takes damage or if someone takes an action to shake it awake. Stunning: Each target must succeed on a Wisdom saving throw or have the Stunned condition for 1 minute.",
@@ -6503,7 +6503,7 @@
     "range": "10 feet",
     "components": [
       "v",
-      "m (rare inks worth 50+ GP, which the spell consumes)"
+      "m (rare inks worth 50+ GP)"
     ],
     "duration": "1 round",
     "description": "As you cast the spell, you draw a 5-foot-radius circle on the ground inscribed with sigils that link your location to a permanent teleportation circle of your choice whose sigil sequence you know and that is on the same plane of existence as you. A shimmering portal opens within the circle you drew and remains open until the end of your next turn. Any creature that enters the portal instantly appears within 5 feet of the destination circle or in the nearest unoccupied space if that space is occupied. Many major temples, guildhalls, and other important places have permanent teleportation circles. Each circle includes a unique sigil sequence\u2014a string of runes arranged in a particular pattern. When you first gain the ability to cast this spell, you learn the sigil sequences for two destinations on the Material Plane, determined by the DM. You might learn additional sigil sequences during your adventures. You can commit a new sigil sequence to memory after studying it for 1 minute. You can create a permanent teleportation circle by casting this spell in the same location every day for 365 days.",
@@ -6733,7 +6733,7 @@
     "components": [
       "v",
       "s",
-      "m (diamonds worth 25,000+ GP, which the spell consumes)"
+      "m (diamonds worth 25,000+ GP)"
     ],
     "duration": "Instantaneous",
     "description": "You touch a creature that has been dead for no longer than 200 years and that died for any reason except old age. The creature is revived with all its Hit Points. This spell closes all wounds, neutralizes any poison, cures all magical contagions, and lifts any curses affecting the creature when it died. The spell replaces damaged or missing organs and limbs. If the creature was Undead, it is restored to its non-Undead form. The spell can provide a new body if the original no longer exists, in which case you must speak the creature's name. The creature then appears in an unoccupied space you choose within 10 feet of you.",
@@ -6751,7 +6751,7 @@
     "components": [
       "v",
       "s",
-      "m (mushroom powder worth 25+ GP, which the spell consumes)"
+      "m (mushroom powder worth 25+ GP)"
     ],
     "duration": "1 hour",
     "description": "For the duration, the willing creature you touch has Truesight with a range of 120 feet.",
@@ -6871,7 +6871,7 @@
     ]
   },
   {
-    "name": "Wall Of Fire",
+    "name": "Wall of Fire",
     "level": 4,
     "type": "Evocation",
     "casting_time": "Action",
@@ -6891,7 +6891,7 @@
     ]
   },
   {
-    "name": "Wall Of Force",
+    "name": "Wall of Force",
     "level": 5,
     "type": "Evocation",
     "casting_time": "Action",
@@ -6909,7 +6909,7 @@
     ]
   },
   {
-    "name": "Wall Of Ice",
+    "name": "Wall of Ice",
     "level": 6,
     "type": "Evocation",
     "casting_time": "Action",
@@ -6927,7 +6927,7 @@
     ]
   },
   {
-    "name": "Wall Of Stone",
+    "name": "Wall of Stone",
     "level": 5,
     "type": "Evocation",
     "casting_time": "Action",
@@ -6947,7 +6947,7 @@
     ]
   },
   {
-    "name": "Wall Of Thorns",
+    "name": "Wall of Thorns",
     "level": 6,
     "type": "Conjuration",
     "casting_time": "Action",
@@ -7132,7 +7132,7 @@
     ]
   },
   {
-    "name": "Word Of Radiance",
+    "name": "Word of Radiance",
     "level": 0,
     "type": "Evocation",
     "casting_time": "Action",
@@ -7148,7 +7148,7 @@
     ]
   },
   {
-    "name": "Word Of Recall",
+    "name": "Word of Recall",
     "level": 6,
     "type": "Conjuration",
     "casting_time": "Action",
@@ -7197,7 +7197,7 @@
     ]
   },
   {
-    "name": "Zone Of Truth",
+    "name": "Zone of Truth",
     "level": 2,
     "type": "Enchantment",
     "casting_time": "Action",

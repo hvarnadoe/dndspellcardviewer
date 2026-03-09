@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "dndspellviewercrossplatform": {
+      "commandName": "Project",
+      "remoteDebugEnabled": false
+    }
+  }
+}

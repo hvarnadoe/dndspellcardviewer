@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WebAssembly">
+  <PropertyGroup>
+    <TargetFramework>net8.0-browser</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>enable</Nullable>
+	  <WasmBuildNative>true</WasmBuildNative>
+
+	  <JsonSerializerIsReflectionEnabledByDefault>true</JsonSerializerIsReflectionEnabledByDefault>
+	  <PublishTrimmed>true</PublishTrimmed>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia.Browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\dndspellviewercrossplatform\dndspellviewercrossplatform.csproj" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<TrimmerRootDescriptor Include="Linker.xml" />
+	</ItemGroup>
+</Project>

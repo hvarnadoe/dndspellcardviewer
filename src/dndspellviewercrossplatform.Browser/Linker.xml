@@ -1,0 +1,10 @@
+﻿<linker>
+	<assembly fullname="dndspellviewercrossplatform" preserve="all" />
+
+	<assembly fullname="dndspellviewercrossplatform.Browser" preserve="all" />
+
+	<assembly fullname="VectSharp" preserve="all" />
+	<assembly fullname="VectSharp.PDF" preserve="all" />
+
+	<assembly fullname="System.Text.Json" preserve="all" />
+</linker>
